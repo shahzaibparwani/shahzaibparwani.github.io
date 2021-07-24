@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parwanis</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active"  href="../index.html">Home</a></li>
+        <li><a href="../links/s.html">Shoes</a></li>
+        <li><a href="../links/c.html">Cloths</a></li>
+        <li><a href="../links/b.html">boutique work</a></li>
+        <li><a href="../links/h.html">Hijabs</a></li>
+        <li style="float:right"><a href="../links/about.html">About</a></li>
+      </ul>
+
+      
+      <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="lname" style="font-size: small;">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email" name="email" placeholder="Your Email Address..">
+            </div>
+          </div>
+
+
+          <div class="row">
+              <div class="col-25">
+                  <label for="phone">Contact</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="contact" id="contact" placeholder="Your Phone Number.. ">
+              </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="adress">Address</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="address" name="address" placeholder="Your Address..">
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="city">City</label>
+            </div>
+            <div class="col-75">
+              <select id="city" name="city">
+                <option value="select">Please Select</option>
+                <option value="karachi">Karachi</option>
+                <option value="lahore">Lahore</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="peshawar">Peshawar</option>
+                <option value="quetta">Quetta</option>
+              </select>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="Product Category">Product Category</label>
+            </div>
+            <div class="col-75">
+              <select id="prodduct" name="product" style="margin-top: 4%;">
+                <option value="select">Please Select</option>
+                <option value="cloths">Cloths</option>
+                <option value="shoes">Shoes</option>
+                <option value="boutique">Boutique work</option>
+                <option value="hijab">Hijabs</option>
+              </select>
+            </div>
+          </div>
+          
+
+          <div class="row">
+            <div class="col-25">
+              <label for="shoes">Shoes Size</label>
+            </div>
+            <div class="col-75">
+              <select id="shoes" name="shoes">
+                <option value="select">Please Select</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="none">None</option>
+              </select>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="shoes">Payement:</label>
+            </div>
+            <div class="col-75">
+                <input type="checkbox" name="service" value="itunes" style="margin-top: 9%;">Cash on delievery
+                <input type="checkbox" name="service" value="lastfm" />Easypaisa
+            </div>
+          </div>
+
+
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      
